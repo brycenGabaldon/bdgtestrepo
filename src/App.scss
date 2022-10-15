@@ -1,0 +1,56 @@
+.container{
+  background: white;
+  display: flex;
+  flex-direction: row;
+  flex-flow: row wrap;
+  align-content: space-around;
+  justify-content: space-evenly;
+  height: 100%;
+  width: 50%;
+  min-width: 600px;
+
+}
+
+  .input-style{
+    padding-top: 0.8em;
+    display: flex;
+    flex-direction: column;
+    gap: 0.8em;}
+    .label{
+      font-family: 'Poppins', sans-serif;
+  }
+
+  .input{
+    outline: none;
+    border: none;
+    padding: 0.8em;
+    border-radius: 2em;
+}
+
+.FormStyle {
+  background: lightblue;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+input[type=submit]{
+  background-color: blue;
+  color: #FFFFFFFF;
+  font-weight: bold;}
+
+input {
+  height: 2rem;
+  background: yellow;
+  border-radius: 1rem;
+  padding: .2rem;
+  width: 20rem;
+}
+
+@media (max-width: 600px) {
+  .container {
+    width: 95%;
+    min-width: 100px;
+  }}
